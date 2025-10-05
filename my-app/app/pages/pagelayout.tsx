@@ -95,7 +95,6 @@ export default function PageLayout() {
       {/* Bottom Navigation */}
       <View style={styles.bottomNav}>
         <NavButton name="Dispatch" iconName="rocket-outline" />
-        <NavButton name="Dispatch List" iconName="list-outline" />
         <NavButton name="Inward" iconName="arrow-down-circle-outline" />
         <NavButton name="Stock" iconName="cube-outline" />
         <NavButton
@@ -116,7 +115,7 @@ export default function PageLayout() {
 
 // Styles
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#f4f6f8' },
+  container: { flex: 1, backgroundColor: '#f4f6f8' , marginTop: 30, marginBottom: 20 },
   // NOTE: The 'header' style is no longer needed and can be removed.
   searchFilterContainer: {
     flexDirection: 'row',
